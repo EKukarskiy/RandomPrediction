@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - Button Style
 
 struct CustomButton: View {
-
+    
     var text = "Ask"
     var action = {}
 

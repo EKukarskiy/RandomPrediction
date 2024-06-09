@@ -11,11 +11,11 @@ import Foundation
 
 @MainActor
 final class ViewModel: ObservableObject {
-
+    
     @Published var memes = [Prediction]()
-
+    
     let provider = NetworkProvider()
-
+    
     func fetchMemes() async throws {
         var fetchedMemes: [Prediction]
         fetchedMemes = try await provider.getMemes()
