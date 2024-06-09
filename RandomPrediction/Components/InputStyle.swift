@@ -10,9 +10,9 @@ import SwiftUI
 // MARK: - Text Field Modifier
 
 struct InputStyle: ViewModifier {
-
+    
     var icon: String
-
+    
     func body(content: Content) -> some View {
         content
             .padding(15)
